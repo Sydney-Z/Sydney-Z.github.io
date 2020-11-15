@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BLM Resources</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">   <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.card img{
+        width: 100%;
+}
+</style>
+  </head>
+  <body>
+    <div id="nav">
+      <h1> Resources</h1>
+      <ul>
+        <li><a href="page4.html">Ways to Help</a></li>
+        <li><a href="page3.html"> Resources</a></li>
+        <li><a href="page2.html">Statistics</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  <h2>Know their names: Black people killed by the police</h2>
+<p>These are just a few of the recent Black Americans murdered by police in a system tainted by racial inequity. There are many many more. Never forget them.
+</p>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://i.guim.co.uk/img/media/ebb9bf977a3d3bc29468cbc1ce487f3edcce9fa3/0_0_2500_3000/master/2500.jpg?width=700&quality=85&auto=format&fit=max&s=12e62665d8138eae6098f2ed87d2f89d"
+         height="360"  >
+      <h2>George Floyd</h2>
+      <a href="https://www.nytimes.com/article/george-floyd.html">Read</a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://bloximages.chicago2.vip.townnews.com/democratherald.com/content/tncms/assets/v3/editorial/3/df/3dfff52f-5148-51d9-8d72-f6e0a25d3191/5ef7ffbabd155.image.jpg?resize=500%2C622"
+         height="360"  >
+      <h2>Breonna Taylor</h2>
+      <a href="https://www.thecut.com/2020/09/breonna-taylor-louisville-shooting-police-what-we-know.html">Read</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://i.pinimg.com/originals/06/80/5b/06805bbe6481d3592dd43acecd7ea5af.jpg"
+          height="360" >
+      <h2>Ahmaud Arbery</h2>
+      <a href="https://www.nytimes.com/article/ahmaud-arbery-shooting-georgia.html">Read</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://static01.nyt.com/images/2020/10/28/us/28philly-wallace-2-xp/28philly-wallace-2-articleLarge.jpg?quality=75&auto=webp&disable=upscale"
+          height="360" >
+      <h2>Walter Wallace Jr.</h2>
+      <a href="https://www.inquirer.com/news/west-philadelphia-police-shooting-locust-20201026.html">Read</a>
+    </div>
+  </div>
+</div>
+  
+  </body>
+</html>

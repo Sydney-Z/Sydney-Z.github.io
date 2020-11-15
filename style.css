@@ -1,0 +1,182 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: white;
+  
+}
+
+h1 {
+  font-style:'Staatliches', cursive; 
+  color: black;
+  float:left;
+  margin:0;
+}
+
+h2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  font-color: #BF3737;
+
+}
+#name{
+  color: black;
+  font-family: 'Francois One', sans-serif;
+  font-size: 45px;
+}
+
+#border {
+  border-style: outset;
+  border-color: grey;
+  padding: 15px;
+}
+#name{
+  background: white;
+  padding: 60px;
+  margin-top: 45px;
+  width: 45%;
+  float: left;
+}
+
+#border2 {
+  padding: 64px;
+}
+
+#disparities {
+  font-size: 45px;
+  font-family: 'Staatliches', cursive;
+}
+
+#divRight{
+  float: right;
+  background: white;
+  width: 45%
+}
+
+#divRight{
+  font-size: 18px;
+  margin-top: 40px;
+}
+img {
+  margin:0 auto;
+  text-align:center;
+}
+div {
+  text-align: center;
+/*   outline: solid white 1px; */
+}
+
+#image1{
+  opacity:80%;
+  width:1400px;
+  object-fit: cover;
+  margin-left:-2em;
+  margin-right:-2em;
+  filter: brightness(50%)
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+/*   background-color: #333; */
+}
+
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#nav li a:hover {
+  background-color: #eee;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+
+#nav{
+  font-family: 'Staatliches', cursive;
+  font-size: 25px;
+
+}
+#image2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-family: 'Staatliches', cursive;
+}
+#links {
+  margin: 0 auto;
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+  display: table-cell; /* Make elements inside the container behave like table cells */
+  float: center;
+  width: 25%;
+  padding: 18px;
+}
+
+
+.dropbtn {
+  background-color: #555;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #333;}
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
